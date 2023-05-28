@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(85, 93, 104);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 106, 141);
+    border-radius: 50%;
+}
+
+.user {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(94, 106, 141);
+}
+
+.person {
+    margin: 15px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.company {
+    background-color: rgb(94, 106, 141);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
